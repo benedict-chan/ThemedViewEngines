@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemedViewEngines.SampleMVC4", "ThemedViewEngines.SampleMVC4\ThemedViewEngines.SampleMVC4.csproj", "{FB43716D-6E63-41AF-96BD-706A2F3D4456}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemedViewEngines.MVC4", "..\ThemedViewEngines.MVC4\ThemedViewEngines.MVC4.csproj", "{B38E7FF6-C072-4700-9073-F54C26C0EF8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{FB43716D-6E63-41AF-96BD-706A2F3D4456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB43716D-6E63-41AF-96BD-706A2F3D4456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB43716D-6E63-41AF-96BD-706A2F3D4456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38E7FF6-C072-4700-9073-F54C26C0EF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38E7FF6-C072-4700-9073-F54C26C0EF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38E7FF6-C072-4700-9073-F54C26C0EF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38E7FF6-C072-4700-9073-F54C26C0EF8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
