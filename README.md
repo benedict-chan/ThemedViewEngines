@@ -40,3 +40,7 @@ You can solve these by using ASP.NET bundles.
 ## TODO
 - Cache support
 - WebForm ViewEngine
+
+
+### Reference and ideas
+[A Custom View Engine with Dynamic View Location](http://weblogs.asp.net/imranbaloch/archive/2011/06/27/view-engine-with-dynamic-view-location.aspx)
