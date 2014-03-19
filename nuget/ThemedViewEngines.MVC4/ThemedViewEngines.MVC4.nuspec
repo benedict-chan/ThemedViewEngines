@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ThemedViewEngines.MVC4</id>
-    <version>0.5.0</version>
+    <version>0.5.1</version>
     <authors>Benedict Chan</authors>
     <owners>Benedict Chan</owners>
 	<title>A Razor Theme ViewEngine, ThemedViewEngines.MVC4</title>
