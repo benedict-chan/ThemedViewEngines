@@ -6,17 +6,13 @@ using System.Web;
 
 namespace ThemedViewEngines
 {
-    public interface IThemeSelectorService
-    {
-        string GetThemeName();
-        void SetThemeName(string themeName);
-    }
+
 
     public class AppConfigurationThemeService : IThemeSelectorService
     {
         public string GetThemeName()
         {
-            return ConfigurationManager.AppSettings["ThemedViewName"] ?? string.Empty;
+            return ConfigurationManager.AppSettings["ThemeName"] ?? string.Empty;
         }
         public void SetThemeName(string themeName)
         {
