@@ -8,7 +8,7 @@
 	<title>A Razor Theme ViewEngine, ThemedViewEngines.MVC4</title>
     <projectUrl>https://github.com/benedict-chan/ThemedViewEngines</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>View Engines with Theme support for new or existing ASP.NET MVC 4 application</description>
+    <description>ViewEngines with Theme support for new or existing ASP.NET MVC 4 application</description>
     <tags>MVC MVC4 ASP.NET Theme ViewEngine</tags>
     <dependencies>
       <dependency id="WebActivatorEx" version="[2.0.3,)" />
