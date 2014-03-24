@@ -7,11 +7,13 @@ namespace ThemedViewEngines
     public class ThemedRazorViewEngine : RazorViewEngine
     {
         private readonly IThemeSelectorService _themeSelectorService;
-        public static string DefaultMasterName = "_Layout";
+
+        public string DefaultMasterName { get; set; }
 
         public ThemedRazorViewEngine(IThemeSelectorService themeSelectorService)
             : base()
         {
+            DefaultMasterName = "_Layout";
             this._themeSelectorService = themeSelectorService;
 
             AreaViewLocationFormats = new[]
