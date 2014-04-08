@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemedViewEngines.SampleMVC4", "ThemedViewEngines.SampleMVC4\ThemedViewEngines.SampleMVC4.csproj", "{FB43716D-6E63-41AF-96BD-706A2F3D4456}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemedViewEngines.MVC4", "..\ThemedViewEngines.MVC4\ThemedViewEngines.MVC4.csproj", "{B38E7FF6-C072-4700-9073-F54C26C0EF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemedViewEngines.MVC5", "..\ThemedViewEngines.MVC5\ThemedViewEngines.MVC5.csproj", "{9D9B5C24-D653-4B19-8E77-71AE461B1B16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{B38E7FF6-C072-4700-9073-F54C26C0EF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B38E7FF6-C072-4700-9073-F54C26C0EF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B38E7FF6-C072-4700-9073-F54C26C0EF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9B5C24-D653-4B19-8E77-71AE461B1B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9B5C24-D653-4B19-8E77-71AE461B1B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9B5C24-D653-4B19-8E77-71AE461B1B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9B5C24-D653-4B19-8E77-71AE461B1B16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

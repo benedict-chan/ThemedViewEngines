@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ThemedViewEngines.MVC4")]
+[assembly: AssemblyTitle("ThemedViewEngines.MVC5")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("BenedictChan")]
-[assembly: AssemblyProduct("ThemedViewEngines.MVC4")]
+[assembly: AssemblyProduct("ThemedViewEngines.MVC5")]
 [assembly: AssemblyCopyright("Copyright © Benedict Chan 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6e2d3179-90df-4f56-a9c0-18ab1b00bbdb")]
+[assembly: Guid("5479f47e-0ab3-4033-8196-195fb6fdfb43")]
 
 // Version information for an assembly consists of the following four values:
 //
