@@ -9,21 +9,22 @@
     
     <style>
         body {
-            background-color: #ff851b;
+            background-color: #3d9970;
         }
 
     </style>
 
 </head>
-    <body>
-        <h1>Default Layout</h1>
-        @Html.Partial("_ThemeSwitcher")
-        @Html.Partial("_Menu")
+<body>
 
-        @RenderBody()
 
-        @Scripts.Render("~/bundles/jquery")
-        @RenderSection("scripts", required: false)
-    </body>
+    <h1>This is the <strong>Sample</strong> Theme Layout</h1>
+    @Html.Partial("_ThemeSwitcher")
+    @Html.Partial("_Menu")
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
 </html>
 

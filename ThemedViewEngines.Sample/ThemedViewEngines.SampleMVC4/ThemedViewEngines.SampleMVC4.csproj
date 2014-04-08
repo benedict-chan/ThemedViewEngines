@@ -112,6 +112,9 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
@@ -125,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\ThemedViewEnginesBootstrapper.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\TestArea\Controllers\AreaController.cs" />
     <Compile Include="Areas\TestArea\TestAreaAreaRegistration.cs" />
@@ -225,6 +229,11 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
+    <Content Include="Themes\Sample\Views\Shared\_Layout.cshtml" />
+    <Content Include="Themes\Sample\Views\Shared\_Menu.cshtml" />
+    <Content Include="Themes\Sample\Views\Web.config" />
+    <Content Include="Themes\Sample\Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_ThemeSwitcher.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -234,6 +243,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ThemedViewEngines.MVC4\ThemedViewEngines.MVC4.csproj">
+      <Project>{b38e7ff6-c072-4700-9073-f54c26c0ef8f}</Project>
+      <Name>ThemedViewEngines.MVC4</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
